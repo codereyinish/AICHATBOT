@@ -1,5 +1,6 @@
 name: transformer_env
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - defaults/osx-arm64::ca-certificates==2024.3.11=hca03da5_0
