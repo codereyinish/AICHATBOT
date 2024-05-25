@@ -2,6 +2,7 @@ name: transformer_env
 channels:
   - conda-forge
   - defaults
+  - huggingface
   - pytorch
 dependencies:
   - ca-certificates
