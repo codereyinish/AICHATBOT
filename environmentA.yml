@@ -1,0 +1,26 @@
+name: transformer_env
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - ca-certificates
+  - libcxx
+  - libffi
+  - ncurses
+  - xz
+  - zlib
+  - openssl
+  - readline
+  - tk
+  - sqlite
+  - python==3.8.19
+  - setuptools
+  - wheel
+  - huggingface::transformers
+  - jupyter
+  - pytorch::pytorch
+  - pip 
+  - pip: 
+    - gradio
+prefix: /Users/manishbista/anaconda3/envs/transformer_env
